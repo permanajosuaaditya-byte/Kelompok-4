@@ -7,7 +7,9 @@
 
 body{
     display:flex;
-    background:#f4f6f9;
+    background:linear-gradient(135deg,#e0f2fe,#f8fafc);
+    min-height:100vh;
+}
 }
 
 .sidebar{
