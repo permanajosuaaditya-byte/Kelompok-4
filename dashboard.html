@@ -1,32 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Dashboard Smart Parking</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Parking Dashboard</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Dashboard Smart Parking Management</h1>
+<div class="sidebar">
+    <h2>🚗 Smart Parking</h2>
 
-<div class="menu">
-    <a href="monitoring.html">Monitoring Slot</a>
-    <a href="transaksi.html">Transaksi</a>
-    <a href="laporan.html">Laporan</a>
+    <a href="dashboard.html">🏠 Dashboard</a>
+    <a href="monitoring.html">📍 Monitoring Slot</a>
+    <a href="transaksi.html">💳 Transaksi</a>
+    <a href="laporan.html">📊 Laporan</a>
 </div>
 
-<div class="card">
-    <h2>Total Slot</h2>
-    <p>100</p>
-</div>
+<div class="main">
 
-<div class="card">
-    <h2>Slot Terisi</h2>
-    <p>65</p>
-</div>
+    <div class="header">
+        <h1>Dashboard Smart Parking Management</h1>
+    </div>
 
-<div class="card">
-    <h2>Slot Kosong</h2>
-    <p>35</p>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Slot</h3>
+            <p>500</p>
+        </div>
+
+        <div class="card">
+            <h3>Slot Kosong</h3>
+            <p>125</p>
+        </div>
+
+        <div class="card">
+            <h3>Slot Terisi</h3>
+            <p>375</p>
+        </div>
+
+        <div class="card">
+            <h3>Pendapatan Hari Ini</h3>
+            <p>Rp 4.500.000</p>
+        </div>
+
+    </div>
+
+    <div class="table-section">
+        <h2>Aktivitas Kendaraan Terbaru</h2>
+
+        <table>
+            <tr>
+                <th>Plat Nomor</th>
+                <th>Waktu Masuk</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>H 1234 AB</td>
+                <td>08:15</td>
+                <td>Masuk</td>
+            </tr>
+
+            <tr>
+                <td>B 5678 CD</td>
+                <td>08:30</td>
+                <td>Masuk</td>
+            </tr>
+
+            <tr>
+                <td>AD 1111 EF</td>
+                <td>08:45</td>
+                <td>Keluar</td>
+            </tr>
+
+        </table>
+
+    </div>
+
 </div>
 
 </body>
