@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Monitoring Slot Parkir</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitoring Slot Parkir</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<div class="sidebar">
+    <h2>🚗 Smart Parking</h2>
+
+    <a href="dashboard.html">🏠 Dashboard</a>
+    <a href="monitoring.html">📍 Monitoring Slot</a>
+    <a href="transaksi.html">💳 Transaksi</a>
+    <a href="laporan.html">📊 Laporan</a>
+</div>
+
+<div class="main">
+
 <h1>Monitoring Slot Parkir</h1>
 
-<table border="1">
-    <tr>
-        <th>Nomor Slot</th>
-        <th>Status</th>
-    </tr>
+<div class="legend">
+    <span class="available"></span> Kosong
+    <span class="occupied"></span> Terisi
+</div>
 
-    <tr>
-        <td>A1</td>
-        <td>Tersedia</td>
-    </tr>
+<h2>Lantai 1</h2>
 
-    <tr>
-        <td>A2</td>
-        <td>Terisi</td>
-    </tr>
+<div class="parking-grid">
 
-    <tr>
-        <td>A3</td>
-        <td>Tersedia</td>
-    </tr>
-</table>
+<div class="slot kosong">A1</div>
+<div class="slot kosong">A2</div>
+<div class="slot terisi">A3</div>
+<div class="slot terisi">A4</div>
 
-<a href="dashboard.html">Kembali ke Dashboard</a>
+<div class="slot kosong">B1</div>
+<div class="slot terisi">B2</div>
+<div class="slot kosong">B3</div>
+<div class="slot terisi">B4</div>
+
+</div>
+
+</div>
 
 </body>
 </html>
