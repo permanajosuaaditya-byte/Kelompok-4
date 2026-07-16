@@ -95,3 +95,48 @@ table td{
     padding:12px;
     border-bottom:1px solid #ddd;
 }
+.legend{
+    margin:20px 0;
+}
+
+.available,
+.occupied{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin-left:20px;
+    border-radius:4px;
+}
+
+.available{
+    background:green;
+}
+
+.occupied{
+    background:red;
+}
+
+.parking-grid{
+    display:grid;
+    grid-template-columns:repeat(4,100px);
+    gap:15px;
+    margin-top:20px;
+}
+
+.slot{
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+.kosong{
+    background:green;
+}
+
+.terisi{
+    background:red;
+}
